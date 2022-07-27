@@ -22,8 +22,8 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Quetzal framework", "index.html", [
-    [ "Welcome to SpOCK's website", "index.html", null ]
+  [ "Quetzal", "index.html", [
+    [ "Welcome to the Quetzal framework's website", "index.html", null ]
   ] ]
 ];
 
