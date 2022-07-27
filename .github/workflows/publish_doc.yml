@@ -42,10 +42,10 @@ jobs:
           cd build && ls
           mkdir --parents ${{github.workspace}}/build/public
           printf "\n"
-          cd build && ls
+          ls
           mv ${{github.workspace}}/build/doc/html ${{github.workspace}}/build/public
           printf "\n"
-          cd build && ls
+          cd publis && ls
 
       - name: Documentation deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
