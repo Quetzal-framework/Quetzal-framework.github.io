@@ -37,7 +37,9 @@ jobs:
           make doc
 
       - name: Documentation moving generated files
-        run: mv ${{github.workspace}}/build/doc/html ./doc
+        run: |
+          mv ${{github.workspace}}/build/doc/html ./doc
+          cd ./doc && ls
 
       - name: Documentation deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
