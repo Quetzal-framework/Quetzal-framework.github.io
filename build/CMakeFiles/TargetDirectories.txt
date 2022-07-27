@@ -1,5 +1,0 @@
-/home/runner/work/Quetzal-framework.github.io/Quetzal-framework.github.io/build/CMakeFiles/edit_cache.dir
-/home/runner/work/Quetzal-framework.github.io/Quetzal-framework.github.io/build/CMakeFiles/rebuild_cache.dir
-/home/runner/work/Quetzal-framework.github.io/Quetzal-framework.github.io/build/doc/CMakeFiles/doc.dir
-/home/runner/work/Quetzal-framework.github.io/Quetzal-framework.github.io/build/doc/CMakeFiles/edit_cache.dir
-/home/runner/work/Quetzal-framework.github.io/Quetzal-framework.github.io/build/doc/CMakeFiles/rebuild_cache.dir
