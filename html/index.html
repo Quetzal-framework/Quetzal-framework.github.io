@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Quetzal: Main Page</title>
+<title>Quetzal: Welcome to the Quetzal framework</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -81,11 +81,23 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Quetzal Documentation</div>  </div>
+<div class="title">Welcome to the Quetzal framework </div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p>This organization aims at gathering code that is of general use for Statistical Phylogeography. In the present state, in mainly focuses on simulating neutral genetic diversity in complex landscapes for inference purposes.</p>
+<p>The general structure of this framework is the following, in order of increasing granularity:</p>
+<ul>
+<li><a href="https://becheler.github.io/softwares/quetzal-CoalTL/home/">Quetzal-CoaTL</a> : a library of C++ generic components for building simulators of molecular diversity. It is the most technical, but also the most general project on this list. Meaning, if you are interested by simulating genetic diversity, that may be a useful repository to check out.</li>
+<li><a href="https://github.com/Becheler/quetzal-EGGS">Quetzal-EGGS</a> : this repository aims at gathering ready-to-use simulators for a variety of users. These simulators do not aim at solving the life equation, nor do they pretend to match existent closed-source softwares (e.g. Splatche3) in their complexity and generality. Rather, the project aims at encouraging the community to master modern C++ tools to implement problem-specific, yet tested, open-source and peer-reviewable implementations that precisely match their needs. Anyone is welcome to add or ask for new simulators.</li>
+<li><a href="https://github.com/Becheler/quetzal-CRUMBS">Quetzal-EGGS</a> : this Python package aims at solving common tasks and problems that tend to appear when using spatially explicit simulators, like preparing a landscape for a simulation.</li>
+<li><a href="https://hub.docker.com/r/arnaudbecheler/quetzal-nest">Quetzal-NEST</a> : This repository contains a Dockerfile that provides a reproducible environment for this kind of analysis. You may find the related Docker image (hosted on Dockerhub) to be useful when needing to configure an environment to run simulations on distributed clusters where you don't have admin privileges.</li>
+<li><a href="https://github.com/Becheler/quetzal_on_OSG">Quetzal_on_OSG</a> : this repository is an application example that uses Open Science Grid to run a full analysis.</li>
+</ul>
+<p>The general articulation of the framework is represented here:</p>
+<p><object type="image/svg+xml" data="pipeline_SOFTWARES.svg" style="pointer-events: none;">The Quetzal framework</object> </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
