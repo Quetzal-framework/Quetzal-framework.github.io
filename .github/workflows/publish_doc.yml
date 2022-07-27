@@ -38,6 +38,7 @@ jobs:
 
       - name: Documentation moving generated files
         run: |
+          ls
           mkdir --parents ${{github.workspace}}/build/public
           mv ${{github.workspace}}/build/doc/html ${{github.workspace}}/build/public
 
