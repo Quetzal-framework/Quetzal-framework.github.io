@@ -40,11 +40,11 @@ jobs:
         run: |
           cd ${{github.workspace}}/build/doc/html && ls
           cd ../../../ && ls
-          mv ${{github.workspace}}/build/doc/html ./public
-          cd ./public && ls
+          mv ${{github.workspace}}/build/doc/html ./doc/public
+          cd .doc/public && ls
 
       - name: Documentation deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./doc/public
