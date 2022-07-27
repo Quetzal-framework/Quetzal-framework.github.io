@@ -38,11 +38,13 @@ jobs:
 
       - name: Documentation moving generated files
         run: |
-          mv ${{github.workspace}}/build/doc/html ./doc
-          cd ./doc && ls
+          cd ${{github.workspace}}/build/doc/html && ls
+          cd ../../../ && ls
+          mv ${{github.workspace}}/build/doc/html ./public
+          cd ./public && ls
 
       - name: Documentation deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./doc
+          publish_dir: ./public
