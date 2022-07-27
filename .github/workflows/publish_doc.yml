@@ -39,13 +39,14 @@ jobs:
       - name: Documentation moving generated files
         run: |
           printf "\n"
-          ls          mkdir --parents ${{github.workspace}}/build/public
+          ls
+          mkdir --parents ${{github.workspace}}/build/public
           printf "\n"
           ls
           mv ${{github.workspace}}/build/doc/html ${{github.workspace}}/build/public
           printf "\n"
           ls
-          
+
       - name: Documentation deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
