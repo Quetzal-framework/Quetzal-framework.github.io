@@ -33,4 +33,4 @@ granularity:
 
 The general articulation of the framework is represented here:
 
-![The Quetzal framework](pipeline_SOFTWARES.svg)
+![The Quetzal framework](framework.svg)
