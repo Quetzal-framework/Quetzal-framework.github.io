@@ -14,11 +14,11 @@ granularity:
 * [Quetzal-EGGS](https://github.com/Becheler/quetzal-EGGS) :
   this repository aims at gathering ready-to-use simulators for a variety of users.
   These simulators do not aim at solving the life equation, nor do they pretend to match existent closed-source
-  softwares (e.g. Splatche3) in their complexity and generality. Rather, the project
+  softwares in their complexity and generality. Rather, the project
   aims at encouraging the community to master modern C++ tools
   to implement problem-specific, yet tested, open-source and peer-reviewable
   implementations that precisely match their needs. Anyone is welcome to add or ask for new simulators.
-* [Quetzal-EGGS](https://github.com/Becheler/quetzal-CRUMBS) :
+* [Quetzal-CRUMBS](https://github.com/Becheler/quetzal-CRUMBS) :
   this Python package aims at solving common tasks and problems that
   tend to appear when using spatially explicit simulators, like preparing a landscape
   for a simulation.
