@@ -6,7 +6,7 @@ find_package(Doxygen
 
 if(DOXYGEN_FOUND)
   # doxygen settings can be set here, prefixed with "DOXYGEN_"
-  set(DOXYGEN_PROJECT_NAME "Quetzal framework")
+  set(DOXYGEN_PROJECT_NAME "Quetzal")
   set(DOXYGEN_EXCLUDE_PATTERNS "README.md" "doxygen-awesome-css")
   set(DOXYGEN_USE_MDFILE_AS_MAINPAGE "main-page.md")
   set(DOXYGEN_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/doc")
@@ -15,7 +15,7 @@ if(DOXYGEN_FOUND)
                                     "doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js"
                                     "doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css"
                                     "doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js")
-                                    
+
   set(DOXYGEN_GENERATE_TREEVIEW YES) #require by doxygen awesome
   set(DOXYGEN_HTML_HEADER "header.html")
   set(DOXYGEN_USE_MATHJAX YES)
